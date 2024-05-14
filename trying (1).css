@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a8a2a2;
+    color:blueviolet; 
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    padding:20px; 
+}
+.navbar li {
+    margin-right: 25px; 
+    margin-left: 15px;
+    list-style: none;
+}
+.navbar a {
+    text-decoration: none;
+    color: black; 
+    height: 80px;
+}
+
+.navbar a:hover {
+    text-decoration: underline; 
+    color: #fbfafa; 
+}
+
+.logo img {
+    width: 100px; 
+    height: auto;
+    margin-right: 20px; 
+    border-radius: 10px;
+}
+.btn {
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border: none;
+    background-color: #007bff; 
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #0056b3; 
+}
+.Section {
+    padding: 100px;
+    text-align: center;
+    background-color: #fff;
+    margin-top:100px; 
+}
+.bold-paragraph{
+    font-weight: bold;
+}
+.Section .thumbnail {
+    font-weight: bold;
+    padding-top: 50px;
+}
+.Section .thumbnail img {
+    width: 100%;
+}
+.section-btn{
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    color: solid white;
+}
+
+.Contact {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin-top: 20px; 
+}
+.Contact input{
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.form-input:focus{
+    outline: none;
+    border-color: #007bff;
+}
+.btn-dark {
+    background-color: #343a40; 
+}
+.btn-dark:hover {
+    background-color: #23272b; 
+}
+.Contact textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px auto;
+    display: block;
+}
+.Contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.btn[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px; 
+    border: none;
+    background-color: #eff1f4;
+    color: white;
+    cursor: pointer;
+}
+.btn[type="submit"]:hover {
+    background-color: #f3f5f6;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
